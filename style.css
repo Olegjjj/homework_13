@@ -1,0 +1,71 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.hero {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+img {
+    width: 125px; 
+    height: 250px;
+}
+.not_footer {
+    background-image: url(img/Rectangle\ 47.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.Restaurant_app {
+    padding-top: 40px;
+}
+.navbar-nav {
+    padding-right: 25%;
+}
+.phone_1 {
+    position: absolute;
+    left: 75px;
+}
+.list_phone_1 {
+  padding-left: 400px;
+}
+.phone_2 {
+    position: absolute;
+    right: 75px;
+}
